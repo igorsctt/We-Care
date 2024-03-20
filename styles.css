@@ -81,3 +81,59 @@ p {
     line-height: 34px;
     color: #000000;
 }
+
+
+
+@media only screen and (max-width: 600px) {
+    header {
+        margin: 20px 10px;
+        text-align: center; 
+    }
+
+    .link-header {
+        margin-right: 10px;
+    }
+
+    .button-header {
+        width: 100px;
+        height: 30px;
+        font-size: 18px;
+    }
+
+    .img-logo {
+        width: 100%; 
+        height: auto; 
+        margin: 20px auto; 
+        display: block; 
+    }
+
+    section {
+        display: block;
+        margin: 0 auto 20px; 
+        text-align: center; 
+    }
+
+    h1 {
+        font-size: 48px;
+        line-height: 58px;
+    }
+
+    h2 {
+        font-size: 36px;
+        line-height: 44px;
+    }
+
+    p {
+        font-size: 16px;
+        line-height: 22px;
+        width: 100%;
+        margin: 20px 0;
+    }
+
+    .button-main {
+        width: 200px;
+        height: 50px;
+        font-size: 20px;
+        line-height: 24px;
+    }
+}
